@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: arial;
+    border: border-box;
+}
+.head-panel{
+    height: 600px;
+    background-color: pink;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black;
+}
+.logo{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.navbar{
+    height: 80px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightblue;
+}
+.head-ops{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head-search{
+    width: 25%;
+}
+.search{
+    width: 70%;
+    height: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.fa-solid.fa-magnifying-glass{
+    background-color: #febd68;
+    padding: 4px;
+    border-radius: 4px;
+}
+.coc{
+    margin-right: 150px;
+    color: #febd68;
+    font-size: 20px;
+    display: flex;
+}
+.fa-shield-halved{
+    font-size: 35px;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+
+/* body */
+.main{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 1000px;
+    background-image: url(main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 420px;
+    width: 21%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.shape:hover{
+    width: 25%;
+    box-shadow: 5px 5px 5px lightgray, 5px -5px 5px lightgray;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content h2{
+    color: black;
+    text-align: center;
+}
+.box-content p{
+    background-color: #febd68;
+    color: brown;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.fot-panel1{
+    background-color: #37475a;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot-panel1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fot-panel2{
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.fot-end{
+    display: inline;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.fot-end a{
+    margin: 25px;
+}
+#link{
+    margin-top: 170px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.fot-logo{
+    height: 50px;
+    width: 110px;
+    background-image:url(clashlogo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;  
+    position: relative;
+    right: 650px;
+}
