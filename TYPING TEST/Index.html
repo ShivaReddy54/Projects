@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed Test </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Styl.css">
+  </head>
+
+  <body>
+
+    <video autoplay muted loop id="background-video">
+      <source src="background.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+
+
+    <div class="wrapper">
+      <h1 id="h1"> Typing Speed Test</h1>
+
+      <input type="text" class="input-field">
+
+      <div class="content-box">
+
+        <div class="typing-text">
+          <p></p>
+        </div>
+
+        <div class="content">
+
+          <ul class="result-details">
+
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+
+            <li class="mistake">
+              <p>Mistakes:</p>
+              <span>0</span>
+            </li>
+
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+
+          </ul>
+
+          <button>Try Again</button>
+
+          <p id="quote"> <i>Type the words that define your journey, and let your keystrokes tell the story of your <br> <p id="quote2"> speed and accuracy</p> </i> </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script src="para.js"></script>
+    <script src="Java.js"></script>
+  
+  </body>
+</html>
